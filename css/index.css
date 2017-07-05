@@ -57,6 +57,7 @@
  	font-weight: bold;
 
  }
+
  .thick-orange-line{
  	border:3px solid #F16439;
  	width: 120px;
@@ -110,4 +111,14 @@
 	font-size: 15px;
 	font-weight: normal;
 	text-align: justify;
+}
+.services{
+	background-color: #f2f2f2;
+	height: 200px;
+
+}
+.portfolio{
+	text-align: center;
+	color: #F16439;
+	padding-top: 20px;
 }
