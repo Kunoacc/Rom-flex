@@ -57,6 +57,10 @@
  	font-weight: bold;
 
  }
+ .scroll{
+ 	background-color: #fff;
+ 	color: black;
+ }
 
  .thick-orange-line{
  	border:3px solid #F16439;
@@ -114,11 +118,20 @@
 }
 .services{
 	background-color: #f2f2f2;
-	height: 200px;
+	height: 400px;
 
 }
 .portfolio{
 	text-align: center;
 	color: #F16439;
 	padding-top: 20px;
+}
+.port_services{	
+	margin-top: 60px;
+	text-align: center;
+	line-height: 13px;
+}
+.flex_article{
+	font-size: 14px;
+	color: #6b6b6b;
 }
