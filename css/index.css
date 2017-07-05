@@ -57,10 +57,26 @@
  	font-weight: bold;
 
  }
+
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: transparent;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: #fff;
+  }
+}
+
  .scroll{
  	background-color: #fff;
  	color: black;
- }
+    -webkit-transition: all 1.3s ease-in-out;
+	-moz-transition:    all 1.3s ease-in-out;
+	-o-transition:      all 1.3s ease-in-out;
+	-ms-transition:     all 1.3s ease-in-out;     }
 
  .thick-orange-line{
  	border:3px solid #F16439;

@@ -5,15 +5,20 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Payporte 2.0</title>
+	<title>Romflex</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top ">
+	<nav class="change navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-12">
@@ -25,7 +30,7 @@
 						</button>
 						<a class="navbar-brand" href="#"><img src="img/rom-flex.png"></a>
 					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
+					<div class="collapse navbar-collapse" id="myNavbar" >
 						<ul class="nav navbar-nav">
 							<li><a href="#">HOME</a></li>
 							<li><a href="#">ABOUT</a></li>
@@ -157,6 +162,17 @@
 
 
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 30) {
+        $(".change").addClass("scroll");   // removed the . from class
+    } else {
+        $(".change").removeClass("scroll");  // removed the . from class
+    }
+});
+	</script>
 </body>
 
 </html>
