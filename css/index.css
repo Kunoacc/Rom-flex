@@ -15,6 +15,7 @@
  	width: 100%;
  	/*min-height: 60px !important;*/
  	border:none;
+ 	position: fixed;
  	font-family: 'Poppins', sans-serif;
  }
  .navbar .navbar-brand{
@@ -36,12 +37,7 @@
  .navbar-default .navbar-nav > li > a:hover {
  	color:#F16439; 
  }
- .our-story{
- 	margin:200px;
- 	height: 100px;
- 	background-color: #fff;
-
- }
+ 
  .articles{
  	line-height: 15px;
  	font-size: 15px;
@@ -65,13 +61,53 @@
  	border:3px solid #F16439;
  	width: 120px;
  }
+ .thin-white-line{
+ 	margin-top:20px;
+ 	border-bottom: 1px solid #d3d3d3;
+ }
  .btn-warning{
  	font-size: x-large;
  	background-color: #F16439;
  	border-radius: 50px;
  	border:none;
  }
- .btn-intro {
+ .btn-intro, .btn-outro {
  	font-size: 14px;
  	padding: 16px 30px;
  }
+ .btn-intro:hover{
+ 	background-color:#fff;
+ 	color: #F16439;
+ }
+ .btn-outro{
+ 	background-color: transparent;
+ 	border-radius: 50px;
+ 	border-color:  #F16439;
+ 	color:  #F16439;
+ 	margin-top: 20px;
+ }
+ .btn-outro:hover{
+ 	background-color: #F16439;
+ 	color: #fff;
+ }
+.our-story{
+ 	margin:200px;
+ 	height: 100px;
+ 	background-color: #fff;
+}
+.our-story_title{
+	font-size: 20px;
+	color: #F16439;
+	text-align: justify;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-weight: bold; 
+}
+.our-story_articles{
+	line-height: 20px;
+	color: #4a4949;
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: justify;
+}
