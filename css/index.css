@@ -1,49 +1,69 @@
- body{
+ body {
  	font-family: 'Poppins', sans-serif;
  	background-color: #fff;
  	line-height: 1.899999px;
  }
-.container-fluid{
+
+.container-fluid {
 	padding-left: 0;
 	padding-right: 0;
 	overflow: hidden;
 }
- .navbar {
+
+.navbar {
  	background-color: transparent;
- 	/*color: #fff;*/
  	font-size:14px;
  	width: 100%;
- 	/*min-height: 60px !important;*/
+ 	min-height: 60px !important;
  	border:none;
  	position: fixed;
  	font-family: 'Poppins', sans-serif;
- }
- .navbar .navbar-brand{
+}
+
+.navbar .navbar-brand {
  	height: 60px !important;
  	padding-top: 4px !important;
  	padding-bottom: 4px !important;
  	margin-top:20px;
- }
- .navbar-default .navbar-collapse{
+}
+
+.navbar-default .navbar-collapse {
  	margin-top: 20px;
- }
- .navbar-default .navbar-nav > li > a{
+}
+
+.navbar-default .navbar-nav > li > a {
  	color: #fff;
- }
- .navbar-nav > li > a {
+	transition: all 0.3s ease-in-out; 
+}
+
+.navbar-nav > li > a {
  	padding-top: 20px;
  	padding-bottom: 20px;
- }
- .navbar-default .navbar-nav > li > a:hover {
+}
+
+.navbar-default .navbar-nav > li > a:hover {
  	color:#F16439; 
- }
+}
+
+.navbar-default.scroll {
+ 	background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition:    all 0.3s ease-in-out;
+	-o-transition:      all 0.3s ease-in-out;
+	-ms-transition:     all 0.3s ease-in-out;     
+}
+
+.navbar-default.scroll .navbar-nav > li > a {
+ 	color: #666666 !important;
+}
  
- .articles{
+.articles {
  	line-height: 15px;
  	font-size: 15px;
  	margin:30px 0 ;
- }
- .carousel-content {
+}
+
+.carousel-content {
  	position: absolute;
  	top: 20%;
  	margin: 20px;
@@ -51,72 +71,61 @@
  	z-index: 20;
  	color: white;
  	text-shadow: 0 1px 2px rgba(0,0,0,.6);
- }
- h1{
+}
+ 
+h1 {
  	font-size: 50px;
  	font-weight: bold;
 
- }
-
-
-@keyframes color-me-in {
-  /* You could think of as "step 1" */
-  0% {
-    background: transparent;
-  }
-  /* You could think of as "step 2" */
-  100% {
-    background: #fff;
-  }
 }
 
- .scroll{
- 	background-color: #fff;
- 	color: black;
-    -webkit-transition: all 1.3s ease-in-out;
-	-moz-transition:    all 1.3s ease-in-out;
-	-o-transition:      all 1.3s ease-in-out;
-	-ms-transition:     all 1.3s ease-in-out;     }
-
- .thick-orange-line{
+.thick-orange-line {
  	border:3px solid #F16439;
  	width: 120px;
- }
- .thin-white-line{
+}
+
+.thin-white-line {
  	margin-top:20px;
  	border-bottom: 1px solid #d3d3d3;
- }
- .btn-warning{
+}
+
+.btn-warning {
  	font-size: x-large;
  	background-color: #F16439;
  	border-radius: 50px;
  	border:none;
- }
- .btn-intro, .btn-outro {
+}
+
+.btn-intro, .btn-outro {
  	font-size: 14px;
  	padding: 16px 30px;
- }
- .btn-intro:hover{
+}
+
+.btn-intro:hover {
  	background-color:#fff;
  	color: #F16439;
- }
- .btn-outro{
+}
+
+.btn-outro {
  	background-color: transparent;
  	border-radius: 50px;
  	border-color:  #F16439;
  	color:  #F16439;
  	margin-top: 20px;
- }
- .btn-outro:hover{
+}
+
+.btn-outro:hover {
  	background-color: #F16439;
  	color: #fff;
- }
-.our-story{
+}
+
+.our-story {
  	margin:200px;
  	height: 100px;
  	background-color: #fff;
 }
-.our-story_title{
+
+.our-story-title {
 	font-size: 20px;
 	color: #F16439;
 	text-align: justify;
@@ -124,7 +133,8 @@
 	margin-bottom: 20px;
 	font-weight: bold; 
 }
-.our-story_articles{
+
+.our-story-articles {
 	line-height: 20px;
 	color: #4a4949;
 	margin-top: 20px;
@@ -132,22 +142,26 @@
 	font-weight: normal;
 	text-align: justify;
 }
-.services{
+
+.services {
 	background-color: #f2f2f2;
 	height: 400px;
-
 }
-.portfolio{
+
+.portfolio {
 	text-align: center;
 	color: #F16439;
 	padding-top: 20px;
 }
-.port_services{	
+
+.port-services {	
 	margin-top: 60px;
 	text-align: center;
 	line-height: 13px;
 }
-.flex_article{
+
+.flex-article 
+{
 	font-size: 14px;
 	color: #6b6b6b;
 }
