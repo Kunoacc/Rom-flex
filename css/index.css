@@ -9,6 +9,9 @@
 	padding-right: 0;
 	overflow: hidden;
 }
+#hack{
+	margin-left: 32px;
+}
 
 .navbar {
  	background-color: transparent;
@@ -255,7 +258,6 @@ h1 {
 	margin-bottom: 30px;
 }
 
-
 #stroke {
     border: 3px solid black;
     text-align: center;
@@ -263,4 +265,32 @@ h1 {
     position: absolute;
     top: 148px;
     left: 48%;
+}
+.image{
+	margin-bottom: 40px; 
+	margin-top: 40px;
+}
+.footer-image {
+	background-image: url('../img/Footer image.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-logo{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.footer-article {
+	color: #fff;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.article{
+	border-bottom: 2px solid;
 }
