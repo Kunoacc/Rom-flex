@@ -134,7 +134,7 @@ h1 {
 }
 
 .our-story {
- 	margin:200px;
+ 	margin-top:200px;
  	height: 100px;
  	background-color: #fff;
 }
@@ -144,7 +144,7 @@ h1 {
 	color: #F16439;
 	text-align: justify;
 	margin-top: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 80px;
 	font-weight: bold; 
 }
 
@@ -177,11 +177,9 @@ h1 {
 }
 
 .flex-article {
-	font-size: 14px;
+	font-size: 13px;
 	color: #6b6b6b;
 	margin-bottom: 100px;
-	margin-left: 25px;
-	margin-right: 25px;
 }
 
 .testimonial {
@@ -291,7 +289,6 @@ h1 {
 .footer-logo{
 	margin-top: 100px;
 	margin-bottom: 40px;
-	margin-left: 30px;
 	color: #fff;
 }
 
@@ -299,10 +296,33 @@ h1 {
 	color: #fff;
 	font-size: 16px;
 	text-align: justify;
-	line-height: 18px;
-	margin-left: 30px;
-	margin-right: 30px;
+	line-height: 25px;
 }
-.article{
+.article {
 	border-bottom: 2px solid;
+}
+
+.footer-icons {
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+#thin-line {
+	bottom: 1px;
+	width: 100%;
+	border-bottom: 1px solid grey;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.footer-services {
+	color: #fff;
+}
+
+.footer-services > li >a {
+	color: #fff;
+}
+
+.Copyright {
+	color: #fff;
 }
