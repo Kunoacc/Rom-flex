@@ -334,7 +334,7 @@ h1 {
 @media screen and (max-width: 600px) {
 
 .articles {
-	display: none;
+	/*display: none;*/
 }
 h1 {
 	font-size: 20px;
