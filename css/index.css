@@ -1,3 +1,9 @@
+
+@import "bourbon";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
  body {
  	font-family: 'Poppins', sans-serif;
  	background-color: #fff;
@@ -17,12 +23,20 @@
 	margin-left: 32px;
 }
 
+.img1{
+	background: url(../img/hero.png) no-repeat center center;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .navbar {
  	background-color: transparent;
  	font-size:14px;
  	width: 100%;
  	min-height: 60px !important;
  	border:none;
+ 	height: 70px;
  	position: fixed;
  	font-family: 'Poppins', sans-serif;
 }
@@ -34,6 +48,11 @@
  	margin-top:20px;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 29px;
+}
+
 .navbar-default .navbar-collapse {
  	margin-top: 20px;
 }
@@ -42,12 +61,14 @@
  	color: #fff;
 	transition: all 0.3s ease-in-out; 
 }
+.navbar-brand>img {
+	margin-bottom: 30px;
+}
 
 .navbar-nav > li > a {
- 	padding-top: 20px;
- 	padding-bottom: 20px;
- 	margin-left: 50px;
- 	font-size: 17px;
+	padding-top: 4px;
+ 	padding-bottom: 4px;
+ 	margin-left: 40px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -55,7 +76,7 @@
 }
 
 .navbar-default.scroll {
- 	background-color: #F16439;
+ 	background-color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition:    all 0.3s ease-in-out;
 	-o-transition:      all 0.3s ease-in-out;
@@ -63,9 +84,9 @@
 }
 
 .navbar-default.scroll .navbar-nav  > li > a {
- 	color: #fff !important;
- 	font-size: 15px;
- 	margin-left: 10px;
+ 	color: #F16439 !important;
+ 	font-size: 14px;
+ 	margin-right: 10px;
 }
 
 .navbar-default.scroll .navbar-nav > li > a:hover {
@@ -91,16 +112,22 @@
 h1 {
  	font-size: 50px;
  	font-weight: bold;
+ 	margin-bottom: 20px;
+ 	margin-top: 75px;
 
+}
+
+h2 {
+	padding-left: 20px;
 }
 
 .thick-orange-line {
  	border:3px solid #F16439;
- 	width: 120px;
+ 	width: 80px;
 }
 
 .thin-white-line {
- 	margin-top:20px;
+ 	margin-top:-10px;
  	border-bottom: 1px solid #d3d3d3;
 }
 
@@ -114,6 +141,8 @@ h1 {
 .btn-intro, .btn-outro {
  	font-size: 14px;
  	padding: 16px 30px;
+ 	font-weight: bold;
+ 	letter-spacing: 1px;
 }
 
 .btn-intro:hover {
@@ -128,6 +157,7 @@ h1 {
  	color:  #F16439;
  	margin-top: 20px;
  	margin-bottom: 70px;
+ 	margin-left: 20px;
 }
 
 .btn-outro:hover {
@@ -135,10 +165,12 @@ h1 {
  	color: #fff;
 }
 
+
 .our-story {
- 	margin-top:200px;
- 	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
  	background-color: #fff;
+
 }
 
 .our-story-title {
@@ -153,6 +185,7 @@ h1 {
 .our-story-articles {
 	line-height: 20px;
 	color: #4a4949;
+	padding-left: 20px;
 	margin-top: 20px;
 	font-size: 15px;
 	font-weight: normal;
@@ -162,6 +195,7 @@ h1 {
 .overall{
 	background-color: #f2f2f2;
 	height: auto;
+	overflow: hidden;
 
 }
 .portfolio {
@@ -188,6 +222,7 @@ h1 {
 	background: url('../img/pexels-photo-92957.png');
 	background-color: transparent;
 	height: 500px;
+	overflow: hidden;
 }
 
 #mark{
@@ -300,6 +335,7 @@ h1 {
 	font-size: 14px;
 	line-height: 25px;
 }
+
 .article {
 	border-bottom: 2px solid;
 }
@@ -309,13 +345,20 @@ h1 {
 	width: 40px;
 	color: #fff;
 }
+
+.footer-icons:hover { 
+	transform: scale(1.2); 
+}
+
 #thin-line {
 	bottom: 1px;
 	width: 100%;
 	border-bottom: 1px solid grey;
 	margin-top: 50px;
 	margin-bottom: 20px;
+	transition: all .2s ease-in-out;
 }
+
 
 .footer-services {
 	color: #fff;
@@ -328,7 +371,6 @@ h1 {
 .Copyright {
 	color: #fff;
 }
-
 
 
 @media screen and (max-width: 600px) {
