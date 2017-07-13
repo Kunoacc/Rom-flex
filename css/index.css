@@ -1,7 +1,4 @@
 
-@import "bourbon";
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
  body {
@@ -25,7 +22,7 @@
 
 .img1{
 	background: url(../img/hero.png) no-repeat center center;
-	height: 100vh;
+	height: 80vh;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -62,7 +59,8 @@
 	transition: all 0.3s ease-in-out; 
 }
 .navbar-brand>img {
-	margin-bottom: 30px;
+    display: block;
+    margin-top: -7px;
 }
 
 .navbar-nav > li > a {
@@ -112,13 +110,12 @@
 h1 {
  	font-size: 50px;
  	font-weight: bold;
- 	margin-bottom: 20px;
  	margin-top: 75px;
 
 }
 
-h2 {
-	padding-left: 20px;
+h2 {	
+	font-size: 24px;
 }
 
 .thick-orange-line {
@@ -129,10 +126,10 @@ h2 {
 .thin-white-line {
  	margin-top:-10px;
  	border-bottom: 1px solid #d3d3d3;
+ 	opacity:0.4;
 }
 
 .btn-warning {
- 	font-size: x-large;
  	background-color: #F16439;
  	border-radius: 50px;
  	border:none;
@@ -157,7 +154,7 @@ h2 {
  	color:  #F16439;
  	margin-top: 20px;
  	margin-bottom: 70px;
- 	margin-left: 20px;
+ 	margin-right: 20px;
 }
 
 .btn-outro:hover {
@@ -183,13 +180,12 @@ h2 {
 }
 
 .our-story-articles {
-	line-height: 20px;
-	color: #4a4949;
-	padding-left: 20px;
-	margin-top: 20px;
-	font-size: 15px;
-	font-weight: normal;
-	text-align: justify;
+    line-height: 20px;
+    color: #4a4949;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
 }
 
 .overall{
@@ -333,7 +329,7 @@ h2 {
 .footer-article {
 	color: #fff;
 	font-size: 14px;
-	line-height: 25px;
+	line-height: 20px;
 }
 
 .article {
@@ -365,7 +361,7 @@ h2 {
 }
 
 .footer-services > li >a {
-	color: #fff;
+	color: #fff;	
 }
 
 .Copyright {
@@ -416,7 +412,6 @@ h2 {
     color: #F16439;
     margin-top: 20px;
     margin-bottom: 70px;
-    margin-left: 34px;
 }
 
 .thick-orange-line {
@@ -446,6 +441,13 @@ h2 {
 #stroke {
     display: none;
 }
+
+.footer-logo {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
 
 }
 

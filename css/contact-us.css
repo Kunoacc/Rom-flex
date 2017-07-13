@@ -1,0 +1,41 @@
+body {
+ 	font-family: 'Poppins', sans-serif;
+ 	background-color: #fff;
+ 	line-height: 1.899999px;
+ }
+
+ * {
+ 	font-family: 'Poppins', sans-serif; 
+ }
+
+ #hero-banner {
+ 	background: url('/home/dave/Desktop/papyporte website 2.0/img/po.jpg') center center;
+	height: 80vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.form-section, .contact-header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.form-group {
+	border:none;
+}
+
+#usr, #email, #comment {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	border-radius:0;
+	background-color: #f9f9f9;
+}
+
+.title {
+	margin-top: 55px;
+	color: #F16439;
+}
+
+.title-article {
+	line-height: 20px;
+}
