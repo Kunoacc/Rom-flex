@@ -36,6 +36,26 @@ body {
 	color: #F16439;
 }
 
+.btn-comment {
+	background-color: #F16439;
+ 	padding: 10px 20px;
+	font-size: small;
+	border: #F16439;
+	border-radius: 50px;
+}
+
+.btn-comment:hover {
+	background-color: #FF5733;
+	border-color:#F16439;
+	color: #fff;
+}
+
 .title-article {
 	line-height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	#hero-banner {
+		height: 40vh;
+	}
 }

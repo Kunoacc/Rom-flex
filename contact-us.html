@@ -13,6 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/contact-us.css">
+	<script type="text/javascript" src="js/romflex.js"></script>
 	<script
 	src="https://code.jquery.com/jquery-3.2.1.js"
 	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -30,11 +31,11 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand" href="#"><img src="/home/dave/Desktop/papyporte website 2.0/img/rom-flex.png" style="height: 70%; width: 70%;" ></a>
+						<a class="navbar-brand" href="index.html"><img src="/home/dave/Desktop/papyporte website 2.0/img/rom-flex.png" style="height: 70%; width: 70%;" ></a>
 					</div>
 					<div class="collapse navbar-collapse pull-right" id="myNavbar" >
 						<ul class="nav navbar-nav">
-							<li><a href="#">HOME</a></li>
+							<li><a href="index.html">HOME</a></li>
 							<li><a href="#">ABOUT</a></li>
 							<li><a href="#">SERVICES</a></li>
 							<li><a href="#">PORTFOLIO</a></li>
@@ -75,7 +76,7 @@
 					<label for="comment">Your Message:</label>
 					<textarea class="form-control" rows="5" id="comment"></textarea>
 				</div>
-				<button type="submit" class="btn btn-intro btn-warning">Send Message</button>
+				<a href="#" type="submit" class="btn btn-comment btn-success">Send Message</a>
 			</form>
 		</div>
 		<div class="col-xs-12 col-md-6">
@@ -151,13 +152,14 @@
 </div>
 <script type="text/javascript">
 
+//navbar scroll effect
 	$(window).scroll(function() {    
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 30) {
-    $(".change").addClass("scroll");   // removed the . from class
+    $(".change").addClass("scroll");   
 } else {
-    $(".change").removeClass("scroll");  // removed the . from class
+    $(".change").removeClass("scroll");  
 }
 });
 
@@ -165,17 +167,17 @@
 		$(".thick-orange-line, h1").css("opacity", 1 - $(window).scrollTop() / 150);
 	});
 
-
+//Geolocation
 	function myMap() {
 var mapProp= {
     center:new google.maps.LatLng(9.075689, 7.472812),
-    zoom:12,
+    zoom:15,
 };
 
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 var marker = new google.maps.Marker({
-          position: center ,
+          position: (9.075689, 7.472812),
           map: googleMap
         });
 </script>
