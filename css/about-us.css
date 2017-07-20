@@ -1,0 +1,104 @@
+
+
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica/4864.ttf);
+}
+
+body {
+ 	background-color: #fff;
+ 	line-height: 1.5;
+ }
+
+.leader-details-articles {
+	font-weight: normal !important;
+	font-size: 12px;
+}
+
+.about-us-thick-line {
+	border: 3px solid #F16439;
+	margin: 0 auto;
+	width: 70px;
+	margin-top: -20px;	
+}
+
+#about-banner {
+ 	background: url('../img/hero-2.png') no-repeat center;
+	height: 80vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about-section, #story{
+	background-color: #fff;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#section-heading > h3 {
+	font-size: 35px;
+	font-weight: bolder;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+#section-article {
+	color: #5A5959;
+}
+
+#section-articles, #section-articles_story {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#story {
+	background: url(../img/story.png) no-repeat center center;
+	background-size: cover;
+}
+
+#section-heading_story > h3  {
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 100px;
+	color: #fff;
+}
+
+.leadership-section {
+	background-color: #f2f2f2;
+	/*height: auto;*/
+
+}
+
+#image-mountain {
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#team-title {
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#thin-long-line {
+	border-bottom: 1px solid #F16439;
+	margin-top: 20px;
+	margin-bottom: 30px; 
+}
+
+.leader-details {
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+
+strong {
+	font-size: 18px;
+	font-weight: 400;
+}

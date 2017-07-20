@@ -1,15 +1,17 @@
-body {
- 	font-family: 'Poppins', sans-serif;
- 	background-color: #fff;
- 	line-height: 1.899999px;
- }
 
- * {
- 	font-family: 'Poppins', sans-serif; 
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica/4864.ttf);
+}
+
+
+body {
+ 	background-color: #fff;
+ 	line-height: 1.5;
  }
 
  #hero-banner {
- 	background: url('/home/dave/Desktop/papyporte website 2.0/img/po.jpg') center center;
+ 	background: url('../img/po.jpg') no-repeat center center;
 	height: 80vh;
 	background-size: cover;
 	background-attachment: fixed;
@@ -20,19 +22,31 @@ body {
 	margin-bottom: 30px;
 }
 
-.form-group {
-	border:none;
+.form-control:focus {
+    border-color: #F16439;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(241, 100, 57,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(241, 100, 57,.6);
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-top: 30px;
 }
 
 #usr, #email, #comment {
-	margin-top: 25px;
+	margin-top: 7px;
 	margin-bottom: 10px;
 	border-radius:0;
 	background-color: #f9f9f9;
 }
 
 .title {
-	margin-top: 55px;
+	margin-top: 70px;
 	color: #F16439;
 }
 
@@ -48,10 +62,6 @@ body {
 	background-color: #FF5733;
 	border-color:#F16439;
 	color: #fff;
-}
-
-.title-article {
-	line-height: 20px;
 }
 
 @media screen and (max-width: 600px) {

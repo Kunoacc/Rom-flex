@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Romflex</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="shortcut icon" href="img/rom-flex.svg" type="image/x-icon">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/about-us.css">
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="change navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="img/rom-flex.png" style="height: 70%; width: 70%;" ></a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="myNavbar" >
+						<ul class="nav navbar-nav">
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">SERVICES</a></li>
+							<li><a href="#">PORTFOLIO</a></li>
+							<li><a href="contact-us.html">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="thin-white-line"></div>
+	</nav>
+	<!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<div class="img1">
+				<div class=carousel-content>
+					<h1>Elegant Landing Page</h1>
+					<div class="thick-orange-line"></div>
+					<div class="articles">
+						<p>There are many variations of passages of Lorum Ipsum available, but the majority have</p>
+						<p>suffered alterations in some form, by injected humour, or randomized words which don't look</p>
+						<p>even slightly believeable. If you are going to use a passage of Lorum Ipsum.</p>
+					</div>	
+					<a href="#" class="btn btn-warning btn-lg btn-intro">GET STARTED</a>
+				</div>
+			</div>
+
+		<!-- <div class="item">
+			<div class="img1">
+		</div>
+
+		<div class="item">
+			<div class="img1">
+			</div> -->
+		</div>
+	</div>
+	<div class="footer footer-image">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-4">
+						<img src="img/Logo Footer.png" class="footer-logo">
+						<div class="footer-article">
+							<p>Lorem Ipsum. prodin gravida nibh vel veht autor aliquet aenaen</p>
+							<p>soullitudun, loren quis bibendum autor, nisi elit consequent ipsum, ned</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h4 class="footer-logo">OUR OFFICE</h4>
+						<div class="footer-article">
+							<p><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;No 2b Agades Crescent</p>
+							<p id="hack"> Wuse 2 Abuja, opposite Seuno</p>
+							<p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;(+234)9051095603</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h4 class="footer-logo">STAY IN TOUCH</h4>	
+						<div class="footer-article">
+							<ol class="list-inline" style="letter-spacing: 30px;">
+								<li><a href="#"><img src="img/Facebook.svg" class="footer-icons"></a></li>
+								<li><a href="$"><img src="img/tw.svg" class="footer-icons"></a></li>
+								<li><a href="#"><img src="img/google.svg" class="footer-icons"></a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div id="thin-line"></div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<ul class="list-inline footer-services" style="margin-top: 25px; ">
+							<li><a href="">HELP</a></li>
+							<li><a href=""> TERMS & CONDITION</a></li>
+							<li><a href="">PRIVACY</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6 text-right footer-services" style="margin-top: 25px; color: #fff;">
+						<p>COPYRIGHT  &copy; 2017 - Rom-flex</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript">
+
+//navbar scroll effect- 
+$(window).scroll(function() {    
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 30) {
+		$(".change").addClass("scroll");  
+	} else {
+		$(".change").removeClass("scroll");  
+	}
+});
+
+
+//hero-banner scroll function-
+$(window).scroll(function(){
+	$(".articles, .btn-warning, .thick-orange-line, h1").css("opacity", 1 - $(window).scrollTop() / 300);
+});
+
+//stroke
+var path = document.querySelector('.man');
+var man = path.getTotalLength();
+console.log(man);
+
+//overall section scroll
+window.sr = ScrollReveal();
+var intro = {
+	origin   : "bottom",
+	distance : "100px",
+	duration : 900,
+	delay    : 1,
+	scale    : 1,
+};
+sr.reveal(".intro", intro);
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+</body>
+
+</html>
